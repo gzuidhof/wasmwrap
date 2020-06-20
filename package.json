@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "description": "Wrap WASM binaries in plain JS files (base64 encoded)",
   "main": "dist/wasmwrap.js",
+  "files": [
+    "dist"
+  ],
+  "bin": {
+    "wasmwrap": "dist/wasmwrap.js"
+  },
   "scripts": {
     "build": "rimraf dist && tsc",
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -1,4 +1,4 @@
-# wasmwrap
+# 📦 wasmwrap
 **Wrap WASM into JS files as base64.**
 
 This command line tool generates a typescript or a javascript file that you can simply import or require in your code, it plays nice with any bundler such as Webpack or Rollup.

@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import {renderCode, RenderData} from "./codegen";
 import * as yargs from "yargs";
 import fs from "fs";
