@@ -1,0 +1,36 @@
+{
+  "name": "wasmwrap",
+  "version": "1.0.0",
+  "description": "Wrap WASM binaries in plain JS files (base64 encoded)",
+  "main": "dist/wasmwrap.js",
+  "scripts": {
+    "build": "rimraf dist && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gzuidhof/wasmwrap.git"
+  },
+  "keywords": [
+    "WebAssembly",
+    "base64"
+  ],
+  "author": "Guido Zuidhof <me@guido.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gzuidhof/wasmwrap/issues"
+  },
+  "homepage": "https://github.com/gzuidhof/wasmwrap#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "minimist": "^1.2.5",
+    "yargs": "^15.3.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.0",
+    "@types/minimist": "^1.2.0",
+    "@types/node": "^14.0.13",
+    "@types/yargs": "^15.0.5",
+    "rimraf": "^3.0.2"
+  }
+}
