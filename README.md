@@ -1,6 +1,8 @@
 # 📦 wasmwrap
 **Wrap WASM into JS files as base64.**
 
+[![NPM](https://img.shields.io/npm/v/wasmwrap)](https://www.npmjs.com/package/wasmwrap)
+
 This command line tool generates a typescript or a javascript file that you can simply import or require in your code, it plays nice with any bundler such as Webpack or Rollup.
 
 Useful for shipping small WebAssembly libraries, in testing, and as a build step after generating `.wasm` files.
