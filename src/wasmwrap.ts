@@ -4,7 +4,7 @@ import * as yargs from "yargs";
 import fs from "fs";
 
 type ModuleOutputArg = 'esm' | 'commonjs';
-const moduleOptions: ReadonlyArray<ModuleOutputArg> = ['esm', 'commonjs'];
+const moduleOptions: ReadonlyArray<ModuleOutputArg> = ['esm', 'commonjs', 'no-modules'];
 
 type LanguageArg = 'js' | 'ts' | "match";
 const languageOptions: ReadonlyArray<LanguageArg> = ['js', 'ts', "match"];
